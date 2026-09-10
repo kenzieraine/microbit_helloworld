@@ -48,11 +48,10 @@ function hello_world() {
             basic.pause(50) //pause after each pip
         }
 
-        // hold letter than reset for next
+        // hold letter, then reset for next
         basic.pause(1000)
         basic.clearScreen()
     }
-    return 0
 }
 input.onButtonPressed(Button.A, function () {
     hello_world()
