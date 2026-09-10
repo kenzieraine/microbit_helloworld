@@ -1,0 +1,8 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="8)W!L3X{wDbyHEAe_Q30">letters</variable><variable id="C(s@TaR/?gc$b1=G=d}g">current_letter</variable><variable id="fB%!![gWNZ8+g!YjWRcb">value</variable><variable id="N2Q#~Ge?IAV8Wein;Kcu">x_coordinate</variable><variable id="4^qgt!/zahdMn3IweV/A">y_coordinate</variable><variable id="zSQLuk@aW;w_5a}dTW#G">h_led</variable><variable id="}^s4=IVKJl|}#XNM?@59">e_led</variable><variable id="l(K`+;g[Y{n#BeS{H/_k">l_led</variable><variable id="J_Q4m/tglIjRs?nJ0JRF">o_led</variable><variable id="i.A-si?%P:6VN~f~z-Q3">w_led</variable><variable id="u%/!`a$2R_#pjSH/zqXj">r_led</variable><variable id="_l_O,OIUUSz?jTN!T?(d">d_led</variable></variables><comment id="/r/lp3j||vH`GD+Wa=Av" x="1357" y="20" w="480" h="160">
+@filename: HelloWorld.js
+@author: kenzieraine
+@date: 09-09-2026
+@brief: Animates HELLO WORLD on the led panel of a micro:bit.
+</comment><comment id=",h$up6O-?W2n/pXL9b3l" x="1882" y="20" w="210" h="120">
+coordinate initialize
+</comment></xml>
