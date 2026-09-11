@@ -42,15 +42,16 @@ function hello_world() {
 
         // inner loop through each pip of the letter
         for (let value of current_letter) {
-            x_coordinate = Math.floor(value / 10)
-            y_coordinate = value % 10
+            x_coordinate = Math.floor(value / 10) // grabs 10s place digit
+            y_coordinate = value % 10 // grabs 1s place digit
             led.plot(x_coordinate, y_coordinate)
-            basic.pause(50) //pause after each pip
+            basic.pause(35) //pause after each pip
         }
 
         // hold letter, then reset for next
-        basic.pause(1000)
+        basic.pause(500)
         basic.clearScreen()
+        basic.pause(200)
     }
 }
 input.onButtonPressed(Button.A, function () {
